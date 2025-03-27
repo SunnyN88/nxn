@@ -1,0 +1,52 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+  }
+  
+  .author-section {
+    max-width: 600px;
+  }
+  
+  .author-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  
+  .author-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .author-intro {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .nav-menu {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .nav-item {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: background 0.3s;
+  }
+  
+  .nav-item:hover {
+    background: #f4f4f4;
+  }
+  
