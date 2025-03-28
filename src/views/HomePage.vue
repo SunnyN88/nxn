@@ -4,7 +4,10 @@
       <img src="@/assets/author.jpg" alt="Author" class="author-photo" />
       <h1 class="author-name">Nguyễn Xuân Nhĩ</h1>
       <p class="author-intro">
-        Chào mừng các bạn đến trang của tôi. Khám phá những trang sách, bài thơ, bài hát mà tôi đã sáng tác.
+        Chào mừng các bạn đến trang của tôi.
+      </p>
+            <p class="author-intro">
+        Khám phá những trang sách, bài thơ, bài hát mà tôi đã sáng tác.
       </p>
       <p class="author-intro">
         Welcome to my collection of books, poems, and music. Explore my works and immerse yourself in stories and melodies.
@@ -17,6 +20,7 @@
       <router-link to="/books" class="nav-item">Sách</router-link>
       <router-link to="/poems" class="nav-item">Thơ</router-link>
       <router-link to="/music" class="nav-item">Nhạc</router-link>
+      <router-link to="/music" class="nav-item">Media</router-link>
     </nav>
   </div>
 </template>

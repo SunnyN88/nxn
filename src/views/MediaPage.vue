@@ -5,8 +5,7 @@
       <div v-for="(book, index) in books" :key="index" class="book-item">
         <router-link :to="`/books/${index + 1}`" class="book-cover-link">
           <div class="book-cover">
-            <!-- Referencing image in the public folder -->
-            <img :src="`/images/${book.coverImage}`" alt="Book cover" class="cover-image" />
+            <img :src="book.coverImage" alt="Book cover" class="cover-image" />
           </div>
         </router-link>
         <p class="book-title">{{ book.title }}</p>
@@ -20,12 +19,12 @@
 import '@/styles/books.css';  // Importing the styles for the book page
 
 const books = [
-{ title: 'Không Thể Nào Quên', coverImage: 'book1.jpg' },
-{ title: 'Chuyện Thời Thơ Ấu', coverImage: 'book2.jpg' }, 
-{ title: 'Đừng Để Mất Nhau', coverImage: 'book3.JPG' },
-{ title: 'Tình Yêu Thời Chiến', coverImage: 'book4.JPG' },
-{ title: 'Book 5', coverImage: 'placeholder.jpg' },
-{ title: 'Book 6', coverImage: 'placeholder.jpg' },
-{ title: 'Book 7', coverImage: 'placeholder.jpg' }
+  { title: 'Book 1', coverImage: '/assets/book 1.JPG' },
+  { title: 'Book 2', coverImage: '/assets/placeholder.jpg' },
+  { title: 'Book 3', coverImage: '/assets/placeholder.jpg' },
+  { title: 'Book 4', coverImage: '/assets/placeholder.jpg' },
+  { title: 'Book 5', coverImage: '/assets/placeholder.jpg' },
+  { title: 'Book 6', coverImage: '/assets/placeholder.jpg' },
+  { title: 'Book 7', coverImage: '/assets/placeholder.jpg' }
 ];
 </script>

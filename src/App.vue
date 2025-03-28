@@ -6,7 +6,8 @@
         <li><router-link to="/">Home</router-link></li>
         <li><router-link to="/books">Books</router-link></li>
         <li><router-link to="/poems">Poems</router-link></li>
-        <li><router-link to="/music">Music</router-link></li>
+        <li><router-link to="/music">Songs</router-link></li>
+        <li><router-link to="/music">Media</router-link></li>
       </ul>
     </nav>
 
